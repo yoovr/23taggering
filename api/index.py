@@ -2,8 +2,8 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/hello")
 def home():
-    return "Server is running!"
+    return "hey skida"
 
 app.run()
